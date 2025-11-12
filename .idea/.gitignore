@@ -6,3 +6,22 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# 依赖目录
+node_modules/
+
+# 生成的文件
+public/
+.deploy_git/
+
+# 缓存文件
+db.json
+*.log
+
+# 环境变量
+.env
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
