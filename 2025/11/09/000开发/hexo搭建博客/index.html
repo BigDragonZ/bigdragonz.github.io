@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>hexo搭建博客 | again and again</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="环境准备初始化123456789npm install -g hexo-clihexo init my-blogcd my-blognpm installhexo server# 或者简写为hexo s# 安装部署插件: 让 hexo deploy 命令生效npm install hexo-deployer-git --save  hexo目录1234567my-blog├── _config.y">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo搭建博客">
+<meta property="og:url" content="http://example.com/2025/11/09/000%E5%BC%80%E5%8F%91/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:site_name" content="again and again">
+<meta property="og:description" content="环境准备初始化123456789npm install -g hexo-clihexo init my-blogcd my-blognpm installhexo server# 或者简写为hexo s# 安装部署插件: 让 hexo deploy 命令生效npm install hexo-deployer-git --save  hexo目录1234567my-blog├── _config.y">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-11-09T02:57:02.000Z">
+<meta property="article:modified_time" content="2025-11-12T12:36:34.750Z">
+<meta property="article:author" content="Dragon">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="GitHub">
+<meta property="article:tag" content="教程">
+<meta property="article:tag" content="实践">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="again and again" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">again and again</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">day day day</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS 订阅"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="搜索"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-000开发/hexo搭建博客" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2025/11/09/000%E5%BC%80%E5%8F%91/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" class="article-date">
+  <time class="dt-published" datetime="2025-11-09T02:57:02.000Z" itemprop="datePublished">2025-11-09</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      hexo搭建博客
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h1><h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init my-blog</span><br><span class="line">cd my-blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br><span class="line"># 或者简写为</span><br><span class="line">hexo s</span><br><span class="line"># 安装部署插件: 让 hexo deploy 命令生效</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<h2 id="hexo目录"><a href="#hexo目录" class="headerlink" title="hexo目录"></a>hexo目录</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">my-blog</span><br><span class="line">├── _config.yml       # 网站的**主配置文件**，非常重要！</span><br><span class="line">├── source            # 存放你的资源和文章</span><br><span class="line">│   └── _posts        # 你的所有博客文章都放在这里（.md文件）</span><br><span class="line">├── themes            # 存放主题的文件夹</span><br><span class="line">│   └── landscape     # 默认主题</span><br><span class="line">└── public            # 执行生成命令后，Hexo会在这里创建静态文件（用于部署）</span><br></pre></td></tr></table></figure>
+
+<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><ul>
+<li><code>hexo clean</code>：清理缓存文件和已生成的静态文件 (<code>public</code> 文件夹)。在遇到奇怪的问题时，先执行这个命令。</li>
+<li><code>hexo generate</code> 或 <code>hexo g</code>：根据 <code>source</code> 下的内容生成静态文件到 <code>public</code> 文件夹。</li>
+<li><code>hexo server</code> 或 <code>hexo s</code>：启动本地服务器，用于预览。</li>
+<li><code>hexo deploy</code> 或 <code>hexo d</code>：部署网站到远程仓库（比如 GitHub）</li>
+</ul>
+<h2 id="常用配置"><a href="#常用配置" class="headerlink" title="常用配置"></a>常用配置</h2><p>修改主配置文件 (<code>_config.yml</code></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: 张三的博客        # 博客标题</span><br><span class="line">subtitle: &#x27;热爱技术与生活&#x27; # 副标题</span><br><span class="line">description: &#x27;...&#x27;       # 描述，用于SEO</span><br><span class="line">keywords:               # 关键词</span><br><span class="line">author: 张三            # 作者名</span><br><span class="line">language: zh-CN         # 语言，中文主题建议用这个</span><br><span class="line">timezone: &#x27;Asia/Shanghai&#x27; # 时区</span><br></pre></td></tr></table></figure>
+
+<p><strong>部署配置</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/one-command-deployment</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/&lt;你的用户名&gt;/&lt;你的用户名&gt;.github.io.git</span><br><span class="line">  # 例如： repo: https://github.com/zhangsan/zhangsan.github.io.git</span><br><span class="line">  branch: main          # 或者 gh-pages，但 main 最简单</span><br><span class="line">  message: &quot;Site updated: &#123;&#123; now(&#x27;YYYY-MM-DD HH:mm:ss&#x27;) &#125;&#125;&quot; # 可选的部署提交信息</span><br></pre></td></tr></table></figure>
+
+<h2 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;我的第一篇文章&quot;</span><br><span class="line">hexo clean &amp;&amp; hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>第一次执行时，可能会弹出一个窗口让你输入 GitHub 的用户名和密码（Personal Access Token）。</p>
+<ul>
+<li><strong>重要</strong>：由于 GitHub 不再支持账户密码直接操作，你需要使用 <strong>Personal Access Token</strong>。</li>
+<li><strong>生成 Token</strong>：在 GitHub -&gt; Settings -&gt; Developer settings -&gt; Personal access tokens -&gt; Tokens (classic) 生成一个新的 Token。需要勾选 <code>repo</code> 权限。生成后请妥善保存。</li>
+<li>在弹出窗口中，<strong>用户名</strong>填你的 GitHub 用户名，<strong>密码</strong>就填刚才生成的 Token。</li>
+</ul>
+<h2 id="绑定自定义域名"><a href="#绑定自定义域名" class="headerlink" title="绑定自定义域名"></a>绑定自定义域名</h2><p>如果你有自己的域名（比如 <code>www.example.com</code>），可以将其绑定到你的 GitHub Pages。</p>
+<ol>
+<li>在博客项目根目录的 <code>source</code> 文件夹下，创建一个名为 <code>CNAME</code> 的文件（<strong>没有后缀</strong>）。</li>
+<li>在文件内写入你的域名，例如：<code>www.example.com</code>。</li>
+<li>在你的域名注册商那里，添加两条 DNS 记录：<ul>
+<li><strong>类型 CNAME</strong>： 主机记录 <code>www</code>， 记录值 <code>&lt;你的用户名&gt;.github.io</code>。</li>
+<li><strong>类型 A</strong>： 主机记录 <code>@</code>， 记录值 <code>185.199.108.153</code>（这是 GitHub Pages 的 IP，有多个，可以都配上）。</li>
+</ul>
+</li>
+<li>将 <code>CNAME</code> 文件提交并部署到 GitHub。</li>
+<li>在 GitHub 仓库的 <strong>Settings -&gt; Pages -&gt; Custom domain</strong> 中，填上你的域名并保存。</li>
+</ol>
+<h1 id="多分支管理"><a href="#多分支管理" class="headerlink" title="多分支管理"></a>多分支管理</h1><p>很好问到了这个问题！Hexo + GitHub Pages 部署后，文件管理是非常重要的。这里为你详细解释如何高效地管理你的博客目录和文件。</p>
+<h2 id="核心概念：两种仓库管理策略"><a href="#核心概念：两种仓库管理策略" class="headerlink" title="核心概念：两种仓库管理策略"></a>核心概念：两种仓库管理策略</h2><h3 id="策略一：单分支管理（推荐给初学者）"><a href="#策略一：单分支管理（推荐给初学者）" class="headerlink" title="策略一：单分支管理（推荐给初学者）"></a>策略一：单分支管理（推荐给初学者）</h3><p>只使用 <code>main</code> 分支存放生成的静态文件（<code>public</code> 文件夹内容）</p>
+<h3 id="策略二：双分支管理（推荐）"><a href="#策略二：双分支管理（推荐）" class="headerlink" title="策略二：双分支管理（推荐）"></a>策略二：双分支管理（<strong>推荐</strong>）</h3><ul>
+<li><code>main</code> 分支：存放生成的静态文件（用于 GitHub Pages 展示）</li>
+<li><code>source</code> 分支：存放完整的 Hexo 源码文件</li>
+</ul>
+<hr>
+<h2 id="策略二详细配置（最佳实践）"><a href="#策略二详细配置（最佳实践）" class="headerlink" title="策略二详细配置（最佳实践）"></a>策略二详细配置（最佳实践）</h2><h3 id="1-初始化源码分支"><a href="#1-初始化源码分支" class="headerlink" title="1. 初始化源码分支"></a>1. 初始化源码分支</h3><p>在你的 Hexo 博客项目根目录执行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1. 初始化 Git（如果还没初始化）</span></span><br><span class="line">git init</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. 创建并切换到 source 分支</span></span><br><span class="line">git checkout -b <span class="built_in">source</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 3. 添加所有文件到暂存区</span></span><br><span class="line">git add .</span><br><span class="line"></span><br><span class="line"><span class="comment"># 4. 提交初始版本</span></span><br><span class="line">git commit -m <span class="string">&quot;Initial Hexo source code&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 5. 添加远程仓库</span></span><br><span class="line">git remote add origin https://github.com/你的用户名/你的用户名.github.io.git</span><br><span class="line"></span><br><span class="line"><span class="comment"># 6. 推送 source 分支到 GitHub</span></span><br><span class="line">git push -u origin <span class="built_in">source</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="2-配置部署到-main-分支"><a href="#2-配置部署到-main-分支" class="headerlink" title="2. 配置部署到 main 分支"></a>2. 配置部署到 main 分支</h3><p>确保 <code>_config.yml</code> 中的部署配置指向 <code>main</code> 分支：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/你的用户名/你的用户名.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-日常工作流程"><a href="#3-日常工作流程" class="headerlink" title="3. 日常工作流程"></a>3. 日常工作流程</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1. 确保在 source 分支</span></span><br><span class="line">git checkout <span class="built_in">source</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. 写新文章</span></span><br><span class="line">hexo new <span class="string">&quot;新文章标题&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 3. 编辑文章（在 source/_posts/）</span></span><br><span class="line"><span class="comment"># 4. 本地测试</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br><span class="line"></span><br><span class="line"><span class="comment"># 5. 部署到 GitHub Pages（更新 main 分支）</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br><span class="line"></span><br><span class="line"><span class="comment"># 6. 保存源码变更到 source 分支</span></span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;添加新文章：新文章标题&quot;</span></span><br><span class="line">git push origin <span class="built_in">source</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="重要文件和目录管理"><a href="#重要文件和目录管理" class="headerlink" title="重要文件和目录管理"></a>重要文件和目录管理</h2><h3 id="必须纳入版本控制的文件-目录："><a href="#必须纳入版本控制的文件-目录：" class="headerlink" title="必须纳入版本控制的文件&#x2F;目录："></a>必须纳入版本控制的文件&#x2F;目录：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">my-blog/</span><br><span class="line">├── _config.yml           # ✅ 网站配置文件（必须）</span><br><span class="line">├── themes/               # ✅ 主题目录（必须）</span><br><span class="line">├── source/               # ✅ 源文件目录（必须）</span><br><span class="line">│   ├── _posts/           # ✅ 所有文章（必须）</span><br><span class="line">│   └── _pages/           # ✅ 自定义页面（如果有）</span><br><span class="line">├── scaffolds/            # ✅ 模板文件（建议）</span><br><span class="line">├── package.json          # ✅ 依赖配置（必须）</span><br><span class="line">└── .gitignore            # ✅ Git忽略文件（必须）</span><br></pre></td></tr></table></figure>
+
+<h3 id="不应该纳入版本控制的文件-目录："><a href="#不应该纳入版本控制的文件-目录：" class="headerlink" title="不应该纳入版本控制的文件&#x2F;目录："></a>不应该纳入版本控制的文件&#x2F;目录：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">my-blog/</span><br><span class="line">├── node_modules/         # ❌ 依赖包（太大，可重新安装）</span><br><span class="line">├── public/               # ❌ 生成的静态文件（自动生成）</span><br><span class="line">├── .deploy_git/          # ❌ 部署缓存（自动生成）</span><br><span class="line">└── db.json               # ❌ 缓存数据库（自动生成）</span><br></pre></td></tr></table></figure>
+
+<h3 id="正确的-gitignore-文件内容："><a href="#正确的-gitignore-文件内容：" class="headerlink" title="正确的 .gitignore 文件内容："></a>正确的 .gitignore 文件内容：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"># 依赖目录</span><br><span class="line">node_modules/</span><br><span class="line"></span><br><span class="line"># 生成的文件</span><br><span class="line">public/</span><br><span class="line">.deploy_git/</span><br><span class="line"></span><br><span class="line"># 缓存文件</span><br><span class="line">db.json</span><br><span class="line">*.log</span><br><span class="line"></span><br><span class="line"># 环境变量</span><br><span class="line">.env</span><br><span class="line"></span><br><span class="line"># IDE文件</span><br><span class="line">.vscode/</span><br><span class="line">.idea/</span><br><span class="line">*.swp</span><br><span class="line">*.swo</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="多设备同步工作流程"><a href="#多设备同步工作流程" class="headerlink" title="多设备同步工作流程"></a>多设备同步工作流程</h2><p>当你需要在另一台电脑上继续写博客时：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1. 克隆源码分支</span></span><br><span class="line">git <span class="built_in">clone</span> -b <span class="built_in">source</span> https://github.com/你的用户名/你的用户名.github.io.git my-blog</span><br><span class="line"><span class="built_in">cd</span> my-blog</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. 安装依赖</span></span><br><span class="line">npm install</span><br><span class="line"></span><br><span class="line"><span class="comment"># 3. 开始写作和部署</span></span><br><span class="line">hexo new <span class="string">&quot;新文章&quot;</span></span><br><span class="line"><span class="comment"># ... 编辑文章 ...</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br><span class="line"></span><br><span class="line"><span class="comment"># 4. 推送源码更新</span></span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;在新电脑上添加文章&quot;</span></span><br><span class="line">git push origin <span class="built_in">source</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="目录结构详细说明"><a href="#目录结构详细说明" class="headerlink" title="目录结构详细说明"></a>目录结构详细说明</h2><h3 id="核心目录："><a href="#核心目录：" class="headerlink" title="核心目录："></a>核心目录：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">my-blog/</span><br><span class="line">├── _config.yml           <span class="comment"># 主配置文件 - 网站标题、描述、URL等</span></span><br><span class="line">├── package.json          <span class="comment"># 项目依赖和脚本</span></span><br><span class="line">├── scaffolds/            <span class="comment"># 文章模板</span></span><br><span class="line">│   ├── post.md          <span class="comment"># 文章模板</span></span><br><span class="line">│   ├── page.md          <span class="comment"># 页面模板</span></span><br><span class="line">│   └── draft.md         <span class="comment"># 草稿模板</span></span><br><span class="line">├── <span class="built_in">source</span>/               <span class="comment"># 源文件（重点管理）</span></span><br><span class="line">│   ├── _posts/          <span class="comment"># 文章目录（.md文件）</span></span><br><span class="line">│   ├── _pages/          <span class="comment"># 自定义页面（关于页、联系页等）</span></span><br><span class="line">│   ├── categories/      <span class="comment"># 分类页（自动生成）</span></span><br><span class="line">│   ├── tags/            <span class="comment"># 标签页（自动生成）</span></span><br><span class="line">│   └── images/          <span class="comment"># 图片资源</span></span><br><span class="line">├── themes/               <span class="comment"># 主题目录</span></span><br><span class="line">│   └── your-theme/      <span class="comment"># 你使用的主题</span></span><br><span class="line">└── public/              <span class="comment"># 生成的静态文件（自动生成，不管理）</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="文章文件管理："><a href="#文章文件管理：" class="headerlink" title="文章文件管理："></a>文章文件管理：</h3><p>在 <code>source/_posts/</code> 目录下，建议这样组织：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">_posts/</span><br><span class="line">├── 2023-10-01-我的第一篇文章.md</span><br><span class="line">├── 2023-10-15-技术笔记.md</span><br><span class="line">├── 2023-11-01-生活随笔.md</span><br><span class="line">└── images/              # 文章专用图片目录</span><br><span class="line">    ├── post1-image1.jpg</span><br><span class="line">    └── post2-diagram.png</span><br></pre></td></tr></table></figure>
+
+<h3 id="资源文件管理："><a href="#资源文件管理：" class="headerlink" title="资源文件管理："></a>资源文件管理：</h3><p>对于图片等资源，有两种推荐方式：</p>
+<p><strong>方式一：放在主题的 source 目录</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 在主题的 source 目录创建 images 文件夹</span></span><br><span class="line">themes/your-theme/source/images/</span><br></pre></td></tr></table></figure>
+
+<p><strong>方式二：使用 CDN</strong></p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">图片描述</span>](<span class="link">https://cdn.example.com/your-image.jpg</span>)</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="实用管理技巧"><a href="#实用管理技巧" class="headerlink" title="实用管理技巧"></a>实用管理技巧</h2><h3 id="1-使用标签和分类管理文章"><a href="#1-使用标签和分类管理文章" class="headerlink" title="1. 使用标签和分类管理文章"></a>1. 使用标签和分类管理文章</h3><p>在文章 Front-matter 中：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 我的技术文章</span><br><span class="line">date: 2023-10-27</span><br><span class="line">tags: [Hexo, GitHub, 教程]</span><br><span class="line"><span class="section">categories: [技术]</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="2-创建自定义页面"><a href="#2-创建自定义页面" class="headerlink" title="2. 创建自定义页面"></a>2. 创建自定义页面</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page <span class="string">&quot;about&quot;</span></span><br></pre></td></tr></table></figure>
+<p>这会在 <code>source/about/index.md</code> 创建关于页面。</p>
+<h3 id="3-备份重要配置"><a href="#3-备份重要配置" class="headerlink" title="3. 备份重要配置"></a>3. 备份重要配置</h3><p>定期备份：</p>
+<ul>
+<li><code>_config.yml</code>（主配置）</li>
+<li><code>themes/your-theme/_config.yml</code>（主题配置）</li>
+<li><code>package.json</code>（依赖列表）</li>
+</ul>
+<h3 id="4-使用子模块管理主题"><a href="#4-使用子模块管理主题" class="headerlink" title="4. 使用子模块管理主题"></a>4. 使用子模块管理主题</h3><p>如果主题来自 Git 仓库，使用子模块：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git submodule add https://github.com/theme-next/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="完整的日常操作示例"><a href="#完整的日常操作示例" class="headerlink" title="完整的日常操作示例"></a>完整的日常操作示例</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 开始新的一天</span></span><br><span class="line"><span class="built_in">cd</span> my-blog</span><br><span class="line">git checkout <span class="built_in">source</span></span><br><span class="line">git pull origin <span class="built_in">source</span>  <span class="comment"># 获取最新更改</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 写新文章</span></span><br><span class="line">hexo new <span class="string">&quot;深度学习入门笔记&quot;</span></span><br><span class="line"><span class="comment"># 用你喜欢的编辑器编辑 source/_posts/深度学习入门笔记.md</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 本地预览</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br><span class="line"></span><br><span class="line"><span class="comment"># 部署到线上</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存源码</span></span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;发布文章：深度学习入门笔记&quot;</span></span><br><span class="line">git push origin <span class="built_in">source</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看状态</span></span><br><span class="line">git status</span><br></pre></td></tr></table></figure>
+
+<p>这样管理，你的博客源码就得到了完整的版本控制，可以在多设备间无缝切换，并且部署过程自动化。这是最专业和可靠的 Hexo + GitHub Pages 管理方式！</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2025/11/09/000%E5%BC%80%E5%8F%91/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" data-id="cmhvzjspo00013oul2qo39omk" data-title="hexo搭建博客" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AE%9E%E8%B7%B5/" rel="tag">实践</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2025/11/09/001%E5%BE%AE%E7%A7%AF%E5%88%86/001%E5%87%BD%E6%95%B0%E3%80%81%E5%9B%BE%E5%83%8F%E5%92%8C%E7%9B%B4%E7%BA%BF/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">微积分入门之函数</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%B0%E5%AD%A6/">数学</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AE%9E%E8%B7%B5/" rel="tag">实践</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BE%AE%E7%A7%AF%E5%88%86-AI%E5%85%A5%E9%97%A8/" rel="tag">微积分 AI入门</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/%E5%AE%9E%E8%B7%B5/" style="font-size: 10px;">实践</a> <a href="/tags/%E5%BE%AE%E7%A7%AF%E5%88%86-AI%E5%85%A5%E9%97%A8/" style="font-size: 10px;">微积分 AI入门</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 10px;">教程</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/11/">十一月 2025</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2025/11/09/000%E5%BC%80%E5%8F%91/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">hexo搭建博客</a>
+          </li>
+        
+          <li>
+            <a href="/2025/11/09/001%E5%BE%AE%E7%A7%AF%E5%88%86/001%E5%87%BD%E6%95%B0%E3%80%81%E5%9B%BE%E5%83%8F%E5%92%8C%E7%9B%B4%E7%BA%BF/">微积分入门之函数</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2025 Dragon<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
