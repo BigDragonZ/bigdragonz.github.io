@@ -359,7 +359,7 @@ hexo clean && hexo g && hexo d
 
 # 保存源码
 git add .
-git commit -m "发布文章：深度学习入门笔记"
+git commit -m "微积分第一章"
 git push origin source
 
 # 查看状态

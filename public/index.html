@@ -77,6 +77,44 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-test" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2025/11/12/test/" class="article-date">
+  <time class="dt-published" datetime="2025-11-12T12:52:40.000Z" itemprop="datePublished">2025-11-12</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2025/11/12/test/">test</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2025/11/12/test/" data-id="cmhw02yxh00004gul41217bmq" data-title="test" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-000开发/hexo搭建博客" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2025/11/09/000%E5%BC%80%E5%8F%91/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" class="article-date">
@@ -194,14 +232,14 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git submodule add https://github.com/theme-next/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
 
 <hr>
-<h2 id="完整的日常操作示例"><a href="#完整的日常操作示例" class="headerlink" title="完整的日常操作示例"></a>完整的日常操作示例</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 开始新的一天</span></span><br><span class="line"><span class="built_in">cd</span> my-blog</span><br><span class="line">git checkout <span class="built_in">source</span></span><br><span class="line">git pull origin <span class="built_in">source</span>  <span class="comment"># 获取最新更改</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 写新文章</span></span><br><span class="line">hexo new <span class="string">&quot;深度学习入门笔记&quot;</span></span><br><span class="line"><span class="comment"># 用你喜欢的编辑器编辑 source/_posts/深度学习入门笔记.md</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 本地预览</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br><span class="line"></span><br><span class="line"><span class="comment"># 部署到线上</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存源码</span></span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;发布文章：深度学习入门笔记&quot;</span></span><br><span class="line">git push origin <span class="built_in">source</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看状态</span></span><br><span class="line">git status</span><br></pre></td></tr></table></figure>
+<h2 id="完整的日常操作示例"><a href="#完整的日常操作示例" class="headerlink" title="完整的日常操作示例"></a>完整的日常操作示例</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 开始新的一天</span></span><br><span class="line"><span class="built_in">cd</span> my-blog</span><br><span class="line">git checkout <span class="built_in">source</span></span><br><span class="line">git pull origin <span class="built_in">source</span>  <span class="comment"># 获取最新更改</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 写新文章</span></span><br><span class="line">hexo new <span class="string">&quot;深度学习入门笔记&quot;</span></span><br><span class="line"><span class="comment"># 用你喜欢的编辑器编辑 source/_posts/深度学习入门笔记.md</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 本地预览</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br><span class="line"></span><br><span class="line"><span class="comment"># 部署到线上</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存源码</span></span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;微积分第一章&quot;</span></span><br><span class="line">git push origin <span class="built_in">source</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看状态</span></span><br><span class="line">git status</span><br></pre></td></tr></table></figure>
 
 <p>这样管理，你的博客源码就得到了完整的版本控制，可以在多设备间无缝切换，并且部署过程自动化。这是最专业和可靠的 Hexo + GitHub Pages 管理方式！</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/11/09/000%E5%BC%80%E5%8F%91/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" data-id="cmhvzyv720000mkuld7lyfitt" data-title="hexo搭建博客" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="http://example.com/2025/11/09/000%E5%BC%80%E5%8F%91/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" data-id="cmhw02yxj00014gul76nqev1f" data-title="hexo搭建博客" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -497,7 +535,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/11/09/001%E5%BE%AE%E7%A7%AF%E5%88%86/001%E5%87%BD%E6%95%B0%E3%80%81%E5%9B%BE%E5%83%8F%E5%92%8C%E7%9B%B4%E7%BA%BF/" data-id="cmhvzyv740001mkul4elcef43" data-title="微积分入门之函数" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="http://example.com/2025/11/09/001%E5%BE%AE%E7%A7%AF%E5%88%86/001%E5%87%BD%E6%95%B0%E3%80%81%E5%9B%BE%E5%83%8F%E5%92%8C%E7%9B%B4%E7%BA%BF/" data-id="cmhw02yxm00064gulaokg37v1" data-title="微积分入门之函数" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -561,6 +599,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2025/11/12/test/">test</a>
+          </li>
         
           <li>
             <a href="/2025/11/09/000%E5%BC%80%E5%8F%91/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">hexo搭建博客</a>
